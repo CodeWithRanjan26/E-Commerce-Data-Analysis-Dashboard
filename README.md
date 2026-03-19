@@ -1,5 +1,5 @@
-E-Commerce Data Analysis Dashboard
-📊 Project Overview
+# E-Commerce Data Analysis Dashboard
+## 📊 Project Overview
 
 This project presents an end-to-end Data Analysis solution using the Olist E-Commerce dataset.
 It covers data cleaning, transformation, analysis, and interactive dashboarding to derive actionable business insights.
@@ -22,20 +22,20 @@ Power BI → Interactive Dashboard Visualization
 
 🗂️ Multiple datasets merged:
 
-Orders
+### Orders
 
-Customers
+### Customers
 
-Order Items
+### Order Items
 
-Products
+### Products
 
-Payments
+### Payments
 
-Sellers
+### Sellers
 
-🛠️ Data Processing Workflow (ETL)
-🔹 1. Data Cleaning (Python)
+## 🛠️ Data Processing Workflow (ETL)
+#### 🔹 1. Data Cleaning (Python)
 
 Handled missing values intelligently
 
@@ -51,7 +51,7 @@ delay_status
 
 is_delayed
 
-🔹 2. Data Transformation
+### 🔹 2. Data Transformation
 
 Merged multiple datasets into a single analytical dataset
 
@@ -63,7 +63,7 @@ Customer Segmentation
 
 Revenue metrics
 
-🔹 3. SQL Analysis
+### 🔹 3. SQL Analysis
 
 Wrote SQL queries for:
 
@@ -75,17 +75,18 @@ Order trends
 
 Optimized queries for performance
 
-🔹 4. Data Visualization (Power BI)
+### 🔹 4. Data Visualization (Power BI)
 
 Built 3-page interactive dashboard
 
 Applied filters, slicers, and advanced visuals
 
 📊 Dashboard Structure
-🟢 Page 1: Business Overview
+
+## 🟢 Page 1: Business Overview
 <img width="1097" height="728" alt="image" src="https://github.com/user-attachments/assets/0a208046-c3c6-4cc9-a395-22919664be4b" />
 
-Key KPIs:
+## Key KPIs:
 
 Total Revenue 💰
 
@@ -97,7 +98,7 @@ Avg Delivery Time ⏱️
 
 Delayed Orders % ❌
 
-Visuals:
+## Visuals:
 
 Revenue Trend 📈
 
@@ -107,7 +108,7 @@ Payment Type Distribution 💳
 
 Top Product Categories 🛍️
 
-🔵 Page 2: Customer Insights
+## 🔵 Page 2: Customer Insights
 <img width="784" height="444" alt="image" src="https://github.com/user-attachments/assets/0aad575b-fa67-4fd5-8d53-ad3dcf1cd4ba" />
 
 KPIs:
@@ -128,7 +129,7 @@ Customer Growth Over Time
 
 Customer Type (Repeat vs One-time)
 
-🟣 Page 3: Product & Revenue Insights
+## 🟣 Page 3: Product & Revenue Insights
 <img width="782" height="437" alt="image" src="https://github.com/user-attachments/assets/7f10d8d1-05e4-4b40-b55f-28094f67147f" />
 
 KPIs:
@@ -149,7 +150,7 @@ Top Sellers by Revenue
 
 Delivery Cost by Category
 
-🎯 Key Insights
+### 🎯 Key Insights
 
 Majority of revenue is driven by a few top product categories
 
@@ -162,33 +163,33 @@ Installment-based payments dominate mid-to-high value purchases
 Strong correlation observed between product price and freight cost
 
 📂 Project Files
-🔹 Power BI Dashboard
+#### 🔹 Power BI Dashboard
 
 👉 View Dashboard (https://drive.google.com/file/d/1YMC-fRExUtG7SP0z92EatnL8YwMidN6p/view?usp=sharing)
 
-🔹 Cleaned Dataset
+#### 🔹 Cleaned Dataset
 
 👉 Download Dataset (https://drive.google.com/file/d/1Kb3KwO0QuK2x6LlyQdiMRGviDQ2LyM3S/view?usp=sharing)
 
-🔹 Jupyter Notebook (Python Cleaning)
+#### 🔹 Jupyter Notebook (Python Cleaning)
 
 👉 data_cleaning.ipynb(https://drive.google.com/file/d/1UtMdCwmFdpM0FBVCD6Wuey8FNQBFSi45/view?usp=sharing)
 
-🔹 SQL Queries
+#### 🔹 SQL Queries
 
-👉 analysis_queries.sql()
+👉 analysis_queries.sql
 
-⚙️ Tools & Technologies
+## ⚙️ Tools & Technologies
 
-Python (Pandas, NumPy)
+#### Python (Pandas, NumPy)
 
-SQL 
+#### SQL 
 
-Power BI
+#### Power BI
 
-Jupyter Notebook
+#### Jupyter Notebook
 
-💡 Business Value
+#### 💡 Business Value
 
 This project demonstrates:
 
@@ -200,7 +201,7 @@ Business insight generation
 
 Dashboard storytelling
 
-📌 How to Use
+#### 📌 How to Use
 
 Download dataset from provided link
 
@@ -210,12 +211,12 @@ Execute SQL queries for analysis
 
 Open Power BI file or view dashboard via link
 
-📊 SQL Analysis Section (README me add karne ke liye)
-🧾 SQL-Based Data Analysis
+## 📊 SQL Analysis Section (README me add karne ke liye)
+### 🧾 SQL-Based Data Analysis
 
 Structured Query Language (SQL) was used to extract meaningful insights from the dataset by performing joins, aggregations, and business-driven analysis queries.
 
-🔹 Revenue Analysis
+#### 🔹 Revenue Analysis
 
 Calculated total revenue generated from all transactions
 
@@ -223,19 +224,19 @@ Analyzed revenue distribution across different payment types
 
 Filtered revenue for only delivered orders to get accurate business performance
 
-🔹 Payment Insights
+#### 🔹 Payment Insights
 
 Grouped revenue by payment methods (credit card, boleto, voucher, etc.)
 
 Identified the most commonly used payment types contributing to revenue
 
-🔹 Time-Based Analysis
+#### 🔹 Time-Based Analysis
 
 Generated monthly revenue trends using date formatting
 
 Tracked business growth over time
 
-🔹 Customer Analysis
+#### 🔹 Customer Analysis
 
 Identified Top 10 customers based on total spending
 
@@ -247,19 +248,19 @@ Repeat Customers
 
 New Customers
 
-🔹 Geographic Insights
+#### 🔹 Geographic Insights
 
 Performed region-wise revenue analysis
 
 Identified top-performing states contributing to overall revenue
 
-🔹 Product Analysis
+#### 🔹 Product Analysis
 
 Identified Top 10 product categories based on number of orders
 
 Helped understand which categories drive the most demand
 
-🔹 Delivery Performance Analysis
+#### 🔹 Delivery Performance Analysis
 
 Calculated average delivery time for delivered orders
 
@@ -267,7 +268,7 @@ Identified top delayed deliveries
 
 Analyzed logistics efficiency
 
-🧠 SQL Techniques Used
+#### 🧠 SQL Techniques Used
 
 JOIN operations (multiple table integration)
 
@@ -281,18 +282,18 @@ LIMIT for top-N analysis
 
 DATEDIFF for delivery time calculation
 
-📌 SQL File
+#### 📌 SQL File
 
-👉 Full SQL queries available here:(https://drive.google.com/file/d/1xUcoVfl1cY6pzU5_25W87sclpJ9uIA4L/view?usp=sharing)
+### 👉 Full SQL queries available here:(https://drive.google.com/file/d/1xUcoVfl1cY6pzU5_25W87sclpJ9uIA4L/view?usp=sharing)
 
 🏁 Conclusion
 
 This project showcases a complete Data Analyst workflow from raw data to business insights.
 It is designed to solve real-world problems and demonstrate strong analytical thinking.
 
-🙌 Author
+### 🙌 Author
 
-Ranjan Yadav
+#### Ranjan Yadav
 Aspiring Data Analyst
 
 ⭐ If you like this project
