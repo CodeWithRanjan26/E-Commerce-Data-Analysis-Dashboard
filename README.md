@@ -163,17 +163,21 @@ Installment-based payments dominate mid-to-high value purchases
 Strong correlation observed between product price and freight cost
 
 📂 Project Files
-#### 🔹 Power BI Dashboard
+## 📥 Download Power BI Dashboard
 
-👉 View Dashboard (https://drive.google.com/file/d/1YMC-fRExUtG7SP0z92EatnL8YwMidN6p/view?usp=sharing)
+Due to GitHub file size limitations, the Power BI file is hosted externally:
 
-#### 🔹 Cleaned Dataset
+👉 **[Download PBIX File](https://drive.google.com/file/d/1YMC-fRExUtG7SP0z92EatnL8YwMidN6p/view?usp=sharing)**
 
-👉 Download Dataset (https://drive.google.com/file/d/1Kb3KwO0QuK2x6LlyQdiMRGviDQ2LyM3S/view?usp=sharing)
+## 📥 Download Dataset
 
-#### 🔹 Jupyter Notebook (Python Cleaning)
+Due to file size limitations, the dataset is hosted externally:
 
-👉 data_cleaning.ipynb(https://drive.google.com/file/d/1UtMdCwmFdpM0FBVCD6Wuey8FNQBFSi45/view?usp=sharing)
+👉 **[Download Dataset](https://drive.google.com/file/d/1Kb3KwO0QuK2x6LlyQdiMRGviDQ2LyM3S/view?usp=sharing)**
+
+## 🔹 Jupyter Notebook (Python Cleaning)
+
+👉 **[Download Data_cleaning.ipynb](https://drive.google.com/file/d/1UtMdCwmFdpM0FBVCD6Wuey8FNQBFSi45/view?usp=sharing)**
 
 #### 🔹 SQL Queries
 
@@ -211,7 +215,7 @@ Execute SQL queries for analysis
 
 Open Power BI file or view dashboard via link
 
-## 📊 SQL Analysis Section (README me add karne ke liye)
+## 📊 SQL Analysis Section 
 ### 🧾 SQL-Based Data Analysis
 
 Structured Query Language (SQL) was used to extract meaningful insights from the dataset by performing joins, aggregations, and business-driven analysis queries.
@@ -284,7 +288,7 @@ DATEDIFF for delivery time calculation
 
 #### 📌 SQL File
 
-### 👉 Full SQL queries available here:(https://drive.google.com/file/d/1xUcoVfl1cY6pzU5_25W87sclpJ9uIA4L/view?usp=sharing)
+### 👉 **[Full SQL queries available here](https://drive.google.com/file/d/1xUcoVfl1cY6pzU5_25W87sclpJ9uIA4L/view?usp=sharing)**
 
 🏁 Conclusion
 
